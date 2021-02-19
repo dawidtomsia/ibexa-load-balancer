@@ -1,0 +1,20 @@
+{
+    "name": "ibexa/load-balancer",
+    "description": "For job interview.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dawid Tomsia",
+            "email": "dawid.tomsia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "guzzlehttp/psr7": "^1.7"
+    }
+}
